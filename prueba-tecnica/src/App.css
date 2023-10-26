@@ -1,0 +1,33 @@
+.title {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 3rem;
+  color: blue;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar {
+  text-align: center;
+  width: 50vh;
+  background-color: #010f2c;
+  color: white;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}

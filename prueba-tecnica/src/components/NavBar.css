@@ -1,0 +1,47 @@
+nav {
+  background-color: #f2f3f5;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 10;
+  display: flex;
+}
+
+li {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #010f2c;
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  color: #333;
+  width: 300px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #feffff;
+  color: #010f2c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+span {
+  margin-right: 10px;
+  color: #010f2c;
+}
